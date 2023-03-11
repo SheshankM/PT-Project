@@ -67,7 +67,7 @@ function SearchBus() {
                         <th>To</th>
                     </tr>
                     <tr>
-                        <td>Kandigai</td>
+                        <td>Kellambakam</td>
                         <td>Tambaram</td>
                     </tr>
                     <tr>
