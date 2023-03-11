@@ -72,7 +72,7 @@ function SearchBus() {
                     </tr>
                     <tr>
                         <td>Tambaram</td>
-                        <td>Kandigai</td>
+                        <td>Gindy</td>
                     </tr>
                     <br />
                 </table>
