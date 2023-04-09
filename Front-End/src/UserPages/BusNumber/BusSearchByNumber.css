@@ -1,7 +1,4 @@
-body
-{
-    background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
-}
+
 .search_page
 {
     display: flex;
@@ -12,8 +9,7 @@ body
 .searchBusesHeading
 {
     font-weight: bold;
-    margin-bottom: 20px;
-    font-size: xx-large;
+    margin-bottom: 10px;
     /* hi sesank */
 }
 .location_search
@@ -42,10 +38,6 @@ body
     margin-right: 10px;
     margin-bottom: 15px;
     height: 40px;
-    outline: black;
-    border-color: black;
-    background-color: white;
-    color: white;
 }
 .fromInput:focus,.toInput:focus
 {
@@ -67,7 +59,7 @@ body
 {
     font-size: 20px;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .location_search button
 {
@@ -77,21 +69,14 @@ body
 {
     margin: 5px;
 }
-.availableBusesHeading
-{
-    margin-top: 10px;
-    transform: translateX(12px);
-    font-size: x-large;
-    font-weight: bold;
-}
 .bus_details
 {
     margin: 0px 15px 0px 10px;
     padding: 5px;
     width : 350px;
-    height: 18vh;
-    border: 2px solid black;
-    margin-bottom: 15px;
+    height: 20vh;
+    border: 2px solid gray;
+    margin-bottom: 10px;
 }
 .dep_time,.arr_time
 {
@@ -125,8 +110,4 @@ th,td
 .starIconActive
 {
     color: red;
-}
-button 
-{
-    background-color: white;
 }

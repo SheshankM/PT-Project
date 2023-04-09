@@ -1,7 +1,15 @@
 import React from 'react'
 import './userlogin.css'
+import {Link, useNavigate} from 'react-router-dom'
 
 function UserLogin() {
+  const navigate = useNavigate()
+
+  function HandleNav()
+  {
+    navigate("./Home")
+  }
+
   return(
   <div className='userlogin-wrapper text-center'>
     <h2>User Login</h2>
@@ -22,7 +30,7 @@ function UserLogin() {
           <label>
             <input type="checkbox" value="remember-me"/>Remember me</label>
         </div>
-        <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+        <button class="w-100 btn btn-lg btn-primary" type="submit" onClick={HandleNav}>Sign in</button>
       </form>
     </main>
   </div>)

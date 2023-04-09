@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import {AiFillStar} from 'react-icons/ai'
+import { Link } from "react-router-dom";
 
 
 function SearchLoop(props)
@@ -21,6 +22,7 @@ function SearchLoop(props)
                     <br />
                     Scheduled Arrival <span className="arr_time">{props.bus.arrvial}</span>
                 </p>
+                <Link to="/Bus-Details">Go</Link>
         </div>
     )
 }
